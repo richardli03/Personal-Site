@@ -10,6 +10,27 @@ p {
 
 }
 
+a:link {
+  color: #ffb84d;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffb84d;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffdb4d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #ffdb4d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .border
 {
   width: 90%;
@@ -20,4 +41,24 @@ p {
   bottom: 0;
   right: 0;
   margin-top: 35px;
+}
+
+.menu
+{
+  width: 85%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 35px;
+  font-family:  "Courier New","Lucida Console", monospace;
+}
+
+ul
+{
+   list-style-type: square;
+}
+#navigation
+{
+  color:white
 }
