@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title> Homepage </title>
       <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
     <div class="border">
-
-      <p class="text">
-        ...loading character
-      </p>
+        <body onLoad="typeWriter()">
+        <p id= "typewriter"></p>
       <br>
-      <p class="text">
-          Character Statistics: Richard Li
-      <br>Age: 17
-      <br>Education: Olin '25
-      <br>Personality: Loud
-      <br>Hometown: Troy, MI
-      </p>
-      <div class="menu">
+      <h1 class="text">Hey! My name is Richard Li</h1>
+    <div class="menuMIDDLE">
       <ul id="navigation">
         <!-- TODO: links to websites -->
-        <li><a href=""> Music-writing </a></li>
-        <li><a href=""> English Teacher/Tutor </a></li>
-        <li><a href=""> Blog </a></li>
-        <li><a href=""> Contact me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact me</a></li>
       </ul>
     </div>
-      <button id="red"> look i can do javascript </button>
-    </div>
+      <!--
+            <button id="red"> look i can do javascript </button>
+        </div>
+      -->
     <script>
-          document.querySelector('#red').onclick = function(){
-            document.querySelector('body').style.backgroundColor = 'grey'
-          }
+      var i = 0;
+      var txt = '...loading character'; /* The text */
+      var speed = 20; /* The speed/duration of the effect in milliseconds */
+
+      function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("typewriter").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+        }
+      }
     </script>
   </body>
 </html>
