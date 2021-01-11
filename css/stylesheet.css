@@ -7,19 +7,28 @@ body {
   font-family:  "Courier New","Lucida Console", monospace;
 }
 
-.border{
-  width: 90%;
+.borderme{
+  width: 85%;
   position: absolute;
   margin: auto;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  margin-top: 45px;
+}
+
+.container{
   margin-top: 100px;
 }
 
 h1{
   font-weight: normal;
+}
+
+p{
+  font-family:  "Courier New","Lucida Console", monospace;
+  color: white;
 }
 
 #typewriter {
@@ -39,17 +48,20 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #ffdb4d;
+  color: #ffff66;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 a:active {
-  color: #ffdb4d;
+  color: #ffff66;
   background-color: transparent;
   text-decoration: underline;
 }
 
-
+#herenow{
+  color: #ffff66;
+  background-color: transparent;
+}
 
 .centered{
   /*height: 200px;
@@ -61,6 +73,7 @@ a:active {
   margin-left: -220px;*/
   text-align: center;
 }
+
 .menuMIDDLE{
   font-family:  "Courier New","Lucida Console", monospace;
   /*width:400px;*/
@@ -69,16 +82,11 @@ a:active {
 
 .menuTOP{
   font-family:  "Courier New","Lucida Console", monospace;
-
+  text-align: center;
 }
 
 ul{
    list-style-type: none;
    padding: 0px;
    margin: 0px;
-}
-
-ul.inline
-{
-  display: inline
 }
