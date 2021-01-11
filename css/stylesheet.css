@@ -18,7 +18,7 @@ body {
   margin-top: 45px;
 }
 
-.container{
+.containerme{
   margin-top: 100px;
 }
 
@@ -31,6 +31,10 @@ p{
   color: white;
 }
 
+#banana{
+  /* TODO: make this a different font */
+  color:#f2ffcc
+}
 #typewriter {
   text-align: center;
   font-size: 50px;
@@ -83,6 +87,7 @@ a:active {
 .menuTOP{
   font-family:  "Courier New","Lucida Console", monospace;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 #portfolio{
