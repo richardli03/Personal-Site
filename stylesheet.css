@@ -3,18 +3,28 @@ body {
 	padding: 0;
   background-image: url('stars.gif');
   background-repeat:repeat;
-  color: white
+  color: white;
+  font-family:  "Courier New","Lucida Console", monospace;
 }
 
-p {
-  font-family:  "Courier New","Lucida Console", monospace;
-  color: white
+.border{
+  width: 90%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 100px;
 }
 
-h1
-{
-  font-family:  "Courier New","Lucida Console", monospace;
+h1{
+  font-weight: normal;
+}
+
+#typewriter {
   text-align: center;
+  font-size: 50px;
 }
 
 
@@ -39,38 +49,36 @@ a:active {
   text-decoration: underline;
 }
 
-.border
-{
-  width: 90%;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin-top: 35px;
-}
 
-.menuMIDDLE
-{
-  height: 200px;
-  width: 400px;
+
+.centered{
+  /*height: 200px;
+  width: auto;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
-  margin-left: -200px;
-  font-family:  "Courier New","Lucida Console", monospace;
-  font-size: 40px;
+  margin-top: -150px;
+  margin-left: -220px;*/
   text-align: center;
 }
-
-.menuTOP
-{
+.menuMIDDLE{
   font-family:  "Courier New","Lucida Console", monospace;
+  /*width:400px;*/
+  font-size: 40px;
 }
 
-ul
-{
+.menuTOP{
+  font-family:  "Courier New","Lucida Console", monospace;
+
+}
+
+ul{
    list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+ul.#inline
+{
+  display: inline
 }

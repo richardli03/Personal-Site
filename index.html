@@ -8,28 +8,35 @@
       <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <div class="border">
-        <body onLoad="typeWriter()">
-        <p id= "typewriter"></p>
-      <br>
-      <h1 class="text">Hey! My name is Richard Li</h1>
-    <div class="menuMIDDLE">
-      <ul id="navigation">
-        <!-- TODO: links to websites -->
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact me</a></li>
-      </ul>
+      <div class="border">
+        <div class="greeting">
+          <body onLoad="typeWriter()">
+          <p id= "typewriter"></p>
+      </div>
+      <div class="centered">
+          <h1>click any link to continue!</h1>
+        <div class="menuMIDDLE">
+          <ul id="navigation">
+            <!-- TODO: links to websites -->
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+          <p id="contact">contact me at: <a href="mailto:richardli485@gmail.com?Subject= Hey!">richardli485@gmail.com</a>!
+          </p>
+      </div>
     </div>
       <!--
             <button id="red"> look i can do javascript </button>
         </div>
       -->
+      <!-- TODO: don't hard code txt -->
     <script>
       var i = 0;
-      var txt = '...loading character'; /* The text */
-      var speed = 20; /* The speed/duration of the effect in milliseconds */
+      var txt = 'Hey! My name is Richard Li'; /* The text */
+      var speed = 50; /* The speed/duration of the effect in milliseconds */
 
       function typeWriter() {
       if (i < txt.length) {
