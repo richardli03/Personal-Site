@@ -85,7 +85,12 @@ a:active {
   text-align: center;
 }
 
-ul{
+#portfolio{
+  list-style-type:square;
+  padding: 0px;
+  margin: 50px;
+}
+#navigation{
    list-style-type: none;
    padding: 0px;
    margin: 0px;
