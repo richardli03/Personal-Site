@@ -1,7 +1,7 @@
 body {
   margin: 0 0 0 0 !important;
 	padding: 0;
-  background-image: url('stars.gif');
+  background-image: url('../assets/stars.gif');
   background-repeat:repeat;
   color: white;
   font-family:  "Courier New","Lucida Console", monospace;
@@ -78,7 +78,7 @@ ul{
    margin: 0px;
 }
 
-ul.#inline
+ul.inline
 {
   display: inline
 }
