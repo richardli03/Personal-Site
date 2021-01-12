@@ -100,3 +100,12 @@ a:active {
    padding: 0px;
    margin: 0px;
 }
+
+.img-icon {
+  padding: 0.25rem;
+  background-color: #ffb84d;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
