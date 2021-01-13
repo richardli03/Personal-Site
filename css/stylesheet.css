@@ -40,6 +40,10 @@ p {
     font-size: 50px;
 }
 
+.row-padded {
+    padding: 10px 0 20px 0;
+}
+
 a:link {
     color: #ffb84d;
     background-color: transparent;
@@ -110,6 +114,7 @@ a:active {
 
 .img-icon {
     padding: 0.25rem;
+    margin: 0 20px 0 20px;
     background-color: #ffb84d;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
