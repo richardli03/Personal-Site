@@ -2,12 +2,12 @@ body {
     margin: 0 0 0 0 !important;
     padding: 0;
     background-image: url('../assets/stars.gif');
-    background-repeat:repeat;
+    background-repeat: repeat;
     color: white;
-    font-family:  "Courier New","Lucida Console", monospace;
+    font-family: "Courier New", "Lucida Console", monospace;
 }
 
-.borderme{
+.borderme {
     width: 85%;
     position: absolute;
     top: 0;
@@ -17,23 +17,24 @@ body {
     margin: 45px auto auto;
 }
 
-.containerme{
+.containerme {
     margin-top: 100px;
 }
 
-h1{
+h1 {
     font-weight: normal;
 }
 
-p{
-    font-family:  "Courier New","Lucida Console", monospace;
+p {
+    font-family: "Courier New", "Lucida Console", monospace;
     color: white;
 }
 
-.banana{
+.banana {
     /* TODO: make this a different font */
-    color:#f2ffcc
+    color: #f2ffcc
 }
+
 #typewriter {
     text-align: center;
     font-size: 50px;
@@ -44,28 +45,31 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
+
 a:visited {
     color: #ffb84d;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:hover {
     color: #ffff66;
     background-color: transparent;
     text-decoration: underline !important;
 }
+
 a:active {
     color: #ffff66;
     background-color: transparent;
     text-decoration: underline;
 }
 
-#herenow{
+#herenow {
     color: #ffff66;
     background-color: transparent;
 }
 
-.centered{
+.centered {
     /*height: 200px;
     width: auto;
     position: fixed;
@@ -80,35 +84,35 @@ a:active {
     padding-bottom: 50px;
 }
 
-.menuMIDDLE{
-    font-family:  "Courier New","Lucida Console", monospace;
+.menuMIDDLE {
+    font-family: "Courier New", "Lucida Console", monospace;
     /*width:400px;*/
     font-size: 40px;
 }
 
-.menuTOP{
-    font-family:  "Courier New","Lucida Console", monospace;
+.menuTOP {
+    font-family: "Courier New", "Lucida Console", monospace;
     text-align: center;
     padding-bottom: 40px;
 }
 
-#portfolio{
-    list-style-type:square;
+#portfolio {
+    list-style-type: square;
     padding: 0;
     margin: 50px;
 }
 
-#navigation{
+#navigation {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .img-icon {
-  padding: 0.25rem;
-  background-color: #ffb84d;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
+    padding: 0.25rem;
+    background-color: #ffb84d;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
 }

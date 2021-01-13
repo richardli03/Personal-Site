@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title> Homepage </title>
-      <link rel="stylesheet" href="css/stylesheet.css">
-  </head>
-  <body>
-      <div class="borderme">
-        <div class="containerme">
-          <div class="greeting">
+    <title> Homepage </title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+<div class="borderme">
+    <div class="containerme">
+        <div class="greeting">
             <body onLoad="typeWriter()">
-            <p id= "typewriter"></p>
+            <p id="typewriter"></p>
         </div>
         <div class="centered">
             <h1>click any link to continue!</h1>
-          <div class="menuMIDDLE">
-            <ul id="navigation">
-              <!-- TODO: links to websites -->
-              <li><a href="aboutme.html">About Me</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="https://richardrecreated.wordpress.com/">Blog</a></li>
-            </ul>
-          </div>
-            <p id="contact">contact me at: <a href="mailto:richardli485@gmail.com?Subject= Hey!">richardli485@gmail.com</a>!
+            <div class="menuMIDDLE">
+                <ul id="navigation">
+                    <!-- TODO: links to websites -->
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="https://richardrecreated.wordpress.com/">Blog</a></li>
+                </ul>
+            </div>
+            <p id="contact">contact me at: <a
+                    href="mailto:richardli485@gmail.com?Subject= Hey!">richardli485@gmail.com</a>!
             </p>
-          </div>
-      </div>
+        </div>
     </div>
-      <!-- TODO: don't hard code txt -->
-    <script>
-      var i = 0;
-      let txt = 'Hey! My name is Richard Li'; /* The text */
-      var speed = 50; /* The speed/duration of the effect in milliseconds */
+</div>
+<!-- TODO: don't hard code txt -->
+<script>
+    var i = 0;
+    let txt = 'Hey! My name is Richard Li'; /* The text */
+    var speed = 50; /* The speed/duration of the effect in milliseconds */
 
-      function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("typewriter").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("typewriter").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
         }
-      }
-    </script>
-  </body>
+    }
+</script>
+</body>
 </html>
