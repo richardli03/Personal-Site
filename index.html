@@ -11,8 +11,7 @@
 <div class="borderme">
     <div class="containerme">
         <div class="greeting">
-            <body onLoad="typeWriter()">
-            <p id="typewriter"></p>
+            <h2>= This is : Richard Li =</h2>
         </div>
         <div class="centered">
             <h1>click any link to continue!</h1>
@@ -22,7 +21,7 @@
                     <li><a href="aboutme.html">About Me</a></li>
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="https://richardrecreated.wordpress.com/">Blog</a></li>
+                    <li><a href="https://richardli03.wordpress.com/">Blog</a></li>
                 </ul>
             </div>
             <p id="contact">contact me at: <a
@@ -32,18 +31,5 @@
     </div>
 </div>
 <!-- TODO: don't hard code txt -->
-<script>
-    var i = 0;
-    let txt = 'Hey! My name is Richard Li'; /* The text */
-    var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-    function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("typewriter").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
-    }
-</script>
 </body>
 </html>

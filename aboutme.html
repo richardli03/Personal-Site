@@ -28,7 +28,7 @@
                 <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://richardrecreated.wordpress.com/">Blog</a>
+                <a class="nav-link" href="https://richardli03.wordpress.com/">Blog</a>
             </li>
         </ul>
     </div>
@@ -42,8 +42,7 @@
         <div class="col">
             <h1 class="centered banana">About</h1>
             <h5>Birthday: Jan 13th, 2003 // Age:18
-                <br>Education: Franklin W. Olin College of Engineering '25
-                <br> MBTI: <a href="https://www.16personalities.com/enfp-personality">ENFP-T</a>
+                <br>Education: Olin College of Engineering '25    
             </h5>
             <br>
             <p> Hi! Nice to meet you. My name is Richard. I'm an 18-year-old kid hailing from Troy, MI. In my free
@@ -58,11 +57,26 @@
     </div>
 
     <div class="row justify-content-center">
-        <img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap">
-        <img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap">
-        <img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap">
-        <img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap">
+        <a href="https://www.linkedin.com/in/richard-li-b18849162"><img class="img-icon" src="assets/linkedin.svg" alt="linkedin" title="Bootstrap"></a>
+        <a href="https://www.facebook.com/profile.php?id=100007503132847"><img class="img-icon" src="assets/facebook.svg" alt="facebook" title="Bootstrap"></a>
+        <a href="https://www.youtube.com/channel/UCXSg371gmF0J0do1wqyT06Q/videos"><img class="img-icon" src="assets/youtube.svg" alt="youtube" title="Bootstrap"></a>
+        <a href="https://www.instagram.com/richard.r.li/"><img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap"></a>
     </div>
+    <body onLoad="typeWriter()">
+    <p id="typewriter"></p>
 </div>
+<script>
+    var i = 0;
+    let txt = 'click any icon!'; /* The text */
+    var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("typewriter").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+</script>
 </body>
 </html>

@@ -7,6 +7,11 @@ body {
     font-family: "Courier New", "Lucida Console", monospace;
 }
 
+@font-face {
+  font-family: TypeWrong;
+  src: url(../assets/typwrng.ttf)format("opentype");
+}
+
 .borderme {
     width: 85%;
     position: absolute;
@@ -25,19 +30,30 @@ h1 {
     font-weight: normal;
 }
 
+h2{
+    font-family: TypeWrong;
+    text-align: center;
+    font-size: 45px;
+}
+
+h5{
+  font-size: 18px;
+}
+
 p {
     font-family: "Courier New", "Lucida Console", monospace;
     color: white;
 }
 
 .banana {
-    /* TODO: make this a different font */
+    font-family: TypeWrong;
     color: #f2ffcc
 }
 
 #typewriter {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .row-padded {
@@ -92,12 +108,14 @@ a:active {
     font-family: "Courier New", "Lucida Console", monospace;
     /*width:400px;*/
     font-size: 40px;
+    font-weight:bold;
 }
 
 .menuTOP {
     font-family: "Courier New", "Lucida Console", monospace;
     text-align: center;
     padding-bottom: 40px;
+    font-weight: bold;
 }
 
 #portfolio {
@@ -115,9 +133,8 @@ a:active {
 .img-icon {
     padding: 0.25rem;
     margin: 0 20px 0 20px;
-    background-color: #ffb84d;
-    border: 1px solid #dee2e6;
-    border-radius: 0.25rem;
+    background-color: #fff;
+    border-radius: 1.25rem;
     max-width: 100%;
-    height: auto;
+    height: 75px;
 }
