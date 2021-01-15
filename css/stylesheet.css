@@ -119,11 +119,6 @@ a:active {
     font-weight: bold;
 }
 
-#portfolio {
-    list-style-type: square;
-    padding: 0;
-    margin: 50px;
-}
 
 #navigation {
     list-style-type: none;
