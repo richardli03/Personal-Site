@@ -76,6 +76,7 @@ a:hover {
     color: #ffff66;
     background-color: transparent;
     text-decoration: underline !important;
+    font-size: 105%;
 }
 
 a:active {
@@ -137,4 +138,17 @@ a:active {
     border-radius: 1.25rem;
     max-width: 100%;
     height: 75px;
+}
+
+.img-thumbnail{
+  width: 400px;
+  margin-left:
+  auto; margin-right:
+  auto; display:block;
+  overflow:hidden;
+}
+
+#greeting
+{
+  margin-top: 100px;
 }
