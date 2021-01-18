@@ -137,13 +137,23 @@ a:active {
 
 .img-thumbnail{
   width: 400px;
-  margin-left:
-  auto; margin-right:
-  auto; display:block;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
   overflow:hidden;
 }
 
 #greeting
 {
   margin-top: 100px;
+}
+
+.description{
+  display:none;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.portfoliolist:hover+.description{
+  display:block;
 }
