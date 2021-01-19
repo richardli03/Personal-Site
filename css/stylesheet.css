@@ -149,11 +149,15 @@ a:active {
 }
 
 .description{
-  display:none;
+  visibility:hidden;
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .portfoliolist:hover+.description{
-  display:block;
+  visibility:visible;
+}
+
+ul{
+  padding-left: 0px;
 }
