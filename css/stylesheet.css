@@ -141,6 +141,8 @@ a:active {
   margin-right: auto;
   display:block;
   overflow:hidden;
+  background-color: #fff;
+  border-radius: 1.25rem;
 }
 
 #greeting
@@ -158,6 +160,8 @@ a:active {
   visibility:visible;
 }
 
-ul{
-  padding-left: 0px;
+
+.space{
+  margin-top: 20px;
+  margin-bottom:50px;
 }
