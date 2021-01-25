@@ -64,6 +64,7 @@ a:link {
     color: #ffb84d;
     background-color: transparent;
     text-decoration: none;
+    position:relative;
 }
 
 a:visited {
@@ -75,8 +76,7 @@ a:visited {
 a:hover {
     color: #ffff66;
     background-color: transparent;
-    text-decoration: underline !important;
-    font-size: 105%;
+    top: -2px;
 }
 
 a:active {
@@ -145,8 +145,8 @@ a:active {
   border-radius: 1.25rem;
 }
 
-#greeting
-{
+
+#greeting{
   margin-top: 100px;
 }
 
@@ -160,8 +160,12 @@ a:active {
   visibility:visible;
 }
 
-
 .space{
   margin-top: 20px;
   margin-bottom:50px;
+  position:relative;
+}
+
+.space:hover{
+  top:-5px;
 }

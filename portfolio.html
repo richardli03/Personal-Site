@@ -36,27 +36,11 @@
     </div>
 
     <h1 class="centered banana">Portfolio</h1>
-    <div class="centered row row-padded bottom-padding">
-        <div class="col">
-          <li class="h5 portfoliolist"><a href="">music</a></li>
-          <p>singer, songwriter, producer</p>
-          <div class="description">click to only see results related to music!</div>
-        </div>
-        <div class="col">
-          <li class="h5 portfoliolist"><a href="">coding</a></li>
-          <p>HTML, CSS, JS</p>
-          <div class="description">click to only see results related to coding!</div>
-        </div>
-        <div class="col">
-          <li class="h5 portfoliolist"><a href="">writing</a></li>
-          <p>teaching, marketing, essays</p>
-          <div class="description">click to only see results related to writing!</div>
-        </div>
-    </div>
+    <h5 class="centered"> click to see source code! </h5>
     <div class="justify-content-center centered container">
         <div class="row">
           <div class="space col">
-            <a href="">  <img class="floatup img-thumbnail" src="assets/filterbot.png" alt="discord filter bot" title="discord filter bot"> </a>
+            <a href="https://github.com/richardli03/DiscordBot">  <img id="animate" class="img-thumbnail" src="assets/filterbot.png" alt="discord filter bot" title="discord filter bot"> </a>
           </div>
           <div class="space col">
             <a href=""><img class="img-thumbnail" src="assets/placeholder.png" alt="placeholder" title="placeholder"></a>
@@ -75,6 +59,18 @@
     </section>
 
 </div>
+<script>
+    $(function() {
+        $("#animate").hover(
+            function() {
+                $(this).attr("src", "assets/filterbot.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/filterbot.png");
+            }
+        );
+    });
+</script>
 
 
 
