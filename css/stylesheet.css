@@ -1,8 +1,9 @@
 body {
     margin: 0 0 0 0 !important;
     padding: 0;
-    background-image: url('../assets/stars.gif');
-    background-repeat: repeat;
+    /* background-image: url('../assets/stars.gif'); 
+    background-repeat: repeat;*/
+    background-color: black;
     color: white;
     font-family: "Courier New", "Lucida Console", monospace;
 }
