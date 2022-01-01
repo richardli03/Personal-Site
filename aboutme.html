@@ -13,61 +13,61 @@
     <script language="javascript" src="script.js" /> </script>
 </head>
 <body>
-<div class="container borderme">
-    <div class="menuTOP">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" id="herenow">About me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="row row-padded bottom-padding">
-        <div class="col">
-            <img class="img-thumbnail"
-                 src="assets/profile.png" alt="this is me!">
+    <div class="container borderme">
+        <div class="menuTOP">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" id="herenow">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="col">
-            <h1 class="centered banana">About</h1>
-            <h5>Birthday: Jan 13th, 2003 // Age:18
-                <br>Education: Olin College of Engineering '25
-            </h5>
-            <br>
-            <p> Hi! Nice to meet you. My name is Richard. I'm an 18-year-old kid hailing from Troy, MI. In my free
-                time, I love to write music, play videogames, and code. This is my first foray into coding my own
-                website, so please be patient and let me know if anything breaks. Follow me on my social media
-                below!</p>
+        <div class="row row-padded bottom-padding">
+            <div class="col">
+                <img class="img-thumbnail"
+                    src="assets/profile.png" alt="this is me!">
+            </div>
+
+            <div class="col">
+                <h1 class="centered banana">About</h1>
+                <h5>Birthday: Jan 13th, 2003 // Age:18
+                    <br>Education: Olin College of Engineering '25
+                </h5>
+                <br>
+                <p> Hi! Nice to meet you. My name is Richard. I'm an 18-year-old kid hailing from Troy, MI. In my free
+                    time, I love to write music, play videogames, and code. This is my first foray into coding my own
+                    website, so please be patient and let me know if anything breaks. Follow me on my social media
+                    below!</p>
+            </div>
         </div>
-    </div>
-    <div class = "row justify-content-center row-padded">
-        <h2 class="centered banana"> What I'm listening to! </h2>
-        <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="300" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/vibe/pl.u-76oNlZBuv5PGl5D"></iframe>
-    </div>
-    
+        <div class = "row justify-content-center row-padded">
+            <h2 class="centered banana"> What I'm listening to! </h2>
+            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="300" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/vibe/pl.u-76oNlZBuv5PGl5D"></iframe>
+        </div>
+        
 
-    <div class="row justify-content-center row-padded">
-        <h1 class="centered banana">Social Media</h1> <!-- TODO: Add icons that lead to my social media -->
-    </div>
+        <div class="row justify-content-center row-padded">
+            <h1 class="centered banana">Social Media</h1> <!-- TODO: Add icons that lead to my social media -->
+        </div>
 
-    <div class="row justify-content-center">
-        <a href="https://www.linkedin.com/in/richard-li-b18849162"><img class="img-icon" src="assets/linkedin.svg" alt="linkedin" title="Bootstrap"></a>
-        <a href="https://www.facebook.com/profile.php?id=100007503132847"><img class="img-icon" src="assets/facebook.svg" alt="facebook" title="Bootstrap"></a>
-        <a href="https://www.youtube.com/channel/UCXSg371gmF0J0do1wqyT06Q/videos"><img class="img-icon" src="assets/youtube.svg" alt="youtube" title="Bootstrap"></a>
-        <a href="https://www.instagram.com/richard.r.li/"><img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap"></a>
+        <div class="row justify-content-center">
+            <a href="https://www.linkedin.com/in/richard-li-b18849162"><img class="img-icon" src="assets/linkedin.svg" alt="linkedin" title="Bootstrap"></a>
+            <a href="https://www.facebook.com/profile.php?id=100007503132847"><img class="img-icon" src="assets/facebook.svg" alt="facebook" title="Bootstrap"></a>
+            <a href="https://www.youtube.com/channel/UCXSg371gmF0J0do1wqyT06Q/videos"><img class="img-icon" src="assets/youtube.svg" alt="youtube" title="Bootstrap"></a>
+            <a href="https://www.instagram.com/richard.r.li/"><img class="img-icon" src="assets/instagram.svg" alt="instagram" title="Bootstrap"></a>
+        </div>
+        <body onLoad="typeWriter()">
+        <p id="typewriter"></p>
     </div>
-    <body onLoad="typeWriter()">
-    <p id="typewriter"></p>
-</div>
 <script>
     var i = 0;
     let txt = 'click any icon!'; /* The text */
