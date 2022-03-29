@@ -5,7 +5,7 @@ body {
     background-repeat: repeat;*/
     background-color: black;
     color: white;
-    font-family: "Courier New", "Lucida Console", monospace;
+    font-family: "Georgia", monospace;
 }
 
 @font-face {
@@ -13,7 +13,7 @@ body {
   src: url(../assets/typwrng.ttf)format("opentype");
 }
 
-.borderme {
+.bordermargins {
     width: 85%;
     position: absolute;
     top: 0;
@@ -42,7 +42,6 @@ h5{
 }
 
 p {
-    font-family: "Courier New", "Lucida Console", monospace;
     color: white;
 }
 
@@ -107,14 +106,12 @@ a:active {
 }
 
 .menuMIDDLE {
-    font-family: "Courier New", "Lucida Console", monospace;
     /*width:400px;*/
     font-size: 40px;
     font-weight:bold;
 }
 
 .menuTOP {
-    font-family: "Courier New", "Lucida Console", monospace;
     text-align: center;
     padding-bottom: 40px;
     font-weight: bold;
