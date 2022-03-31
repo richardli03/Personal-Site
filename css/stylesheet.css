@@ -5,9 +5,12 @@ body {
     background-repeat: repeat;*/
     background-color: black;
     color: white;
-    font-family: "Georgia", monospace;
+    font-family: Ubuntu, monospace;
 }
-
+@font-face {
+    font-family: Ubuntu;
+    src: url(../assets/Ubuntu/Ubuntu-Regular.ttf)format("opentype")
+}
 @font-face {
   font-family: TypeWrong;
   src: url(../assets/typwrng.ttf)format("opentype");
