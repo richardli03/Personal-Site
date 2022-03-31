@@ -3,7 +3,7 @@ body {
     padding: 0;
     /* background-image: url('../assets/stars.gif'); 
     background-repeat: repeat;*/
-    background-color: black;
+    background-color: #0A0A09;
     color: white;
     font-family: Ubuntu, monospace;
 }
@@ -11,10 +11,12 @@ body {
     font-family: Ubuntu;
     src: url(../assets/Ubuntu/Ubuntu-Regular.ttf)format("opentype")
 }
+
 @font-face {
-  font-family: TypeWrong;
-  src: url(../assets/typwrng.ttf)format("opentype");
+    font-family: Abril;
+    src: url(../assets/Abril_Fatface/AbrilFatface-Regular.ttf)format("opentype")
 }
+
 
 .bordermargins {
     width: 85%;
@@ -35,7 +37,7 @@ h1 {
 }
 
 h2{
-    font-family: TypeWrong;
+    font-family: Abril;
     text-align: center;
     font-size: 45px;
 }
@@ -48,9 +50,9 @@ p {
     color: white;
 }
 
-.banana {
-    font-family: TypeWrong;
-    color: #f2ffcc
+.brown_accent {
+    font-family: Abril;
+    color: #eea968
 }
 
 #typewriter {
@@ -64,32 +66,32 @@ p {
 }
 
 a:link {
-    color: #ffb84d;
+    color: #b6dcff;
     background-color: transparent;
     text-decoration: none;
     position:relative;
 }
 
 a:visited {
-    color: #ffb84d;
+    color: #b6dcff;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffff66;
+    color: #3d58d8;
     background-color: transparent;
     top: -2px;
 }
 
 a:active {
-    color: #ffff66;
+    color: #3d58d8;
     background-color: transparent;
     text-decoration: underline;
 }
 
 #herenow {
-    color: #ffff66;
+    color: #3d58d8;
     background-color: transparent;
 }
 
@@ -149,6 +151,7 @@ a:active {
 
 #greeting{
   margin-top: 100px;
+  
 }
 
 .description{
