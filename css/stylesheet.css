@@ -79,19 +79,19 @@ a:visited {
 }
 
 a:hover {
-    color: #3d58d8;
+    color: white;
     background-color: transparent;
     top: -2px;
 }
 
 a:active {
-    color: #3d58d8;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
 }
 
 #herenow {
-    color: #3d58d8;
+    color: white;
     background-color: transparent;
 }
 
