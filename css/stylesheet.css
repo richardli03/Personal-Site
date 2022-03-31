@@ -137,7 +137,8 @@ a:active {
 }
 
 .img-thumbnail{
-  width: 400px;
+  width: 75%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   overflow:hidden;
