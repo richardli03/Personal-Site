@@ -7,66 +7,24 @@ body {
     color: white;
     font-family: Ubuntu, monospace;
 }
-@font-face {
-    font-family: Ubuntu;
-    src: url(../assets/Ubuntu/Ubuntu-Regular.ttf)format("opentype")
-}
 
-@font-face {
-    font-family: Abril;
-    src: url(../assets/Abril_Fatface/AbrilFatface-Regular.ttf)format("opentype")
-}
+hr{
+    border: 3px dotted #eea968;
+  }
 
 
-.bordermargins {
-    width: 85%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 45px auto auto;
-}
-
-.containerme {
-    margin-top: 100px;
-}
-
-h1 {
-    font-weight: normal;
-}
-
-h2{
-    font-family: Abril;
-    text-align: center;
-    font-size: 45px;
-}
-
-h5{
-  font-size: 18px;
-}
-
-p {
-    color: white;
-}
-
-.brown_accent {
-    font-family: Abril;
-    color: #eea968
-}
-
-#typewriter {
-    text-align: center;
-    font-size: 20px;
+.portfolioimg {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.row-padded {
-    padding: 10px 0 20px 0;
+.content {
+    margin-top: 25px;
+    width: 90%;
 }
 
 a:link {
-    color: #b6dcff;
+    color: #7ea7f5;
     background-color: transparent;
     text-decoration: none;
     position:relative;
@@ -81,52 +39,15 @@ a:visited {
 a:hover {
     color: white;
     background-color: transparent;
-    top: -2px;
+    /* top: -2px;  */
 }
 
-a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-#herenow {
-    color: white;
-    background-color: transparent;
-}
-
-.centered {
-    /*height: 200px;
-    width: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px;
-    margin-left: -220px;*/
-    text-align: center;
-}
-
-.bottom-padding {
-    padding-bottom: 50px;
-}
-
-.menuMIDDLE {
-    /*width:400px;*/
-    font-size: 40px;
-    font-weight:bold;
-}
-
-.menuTOP {
-    text-align: center;
-    padding-bottom: 40px;
-    font-weight: bold;
-}
-
-
-#navigation {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.img-cover{
+    display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .img-icon {
@@ -138,38 +59,17 @@ a:active {
     height: 75px;
 }
 
-.img-thumbnail{
-  width: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  overflow:hidden;
-  background-color: #fff;
-  border-radius: 1.25rem;
+h1{
+    text-align: center;
+   
+}
+
+h3{
+    color: #7ea7f5;
+    text-align: center;
 }
 
 
-#greeting{
-  margin-top: 100px;
-  
-}
-
-.description{
-  visibility:hidden;
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.portfoliolist:hover+.description{
-  visibility:visible;
-}
-
-.space{
-  margin-top: 20px;
-  margin-bottom:50px;
-  position:relative;
-}
-
-.space:hover{
-  top:-5px;
+.col{
+    padding: 45px;
 }

@@ -1,3 +1,11 @@
+<!--
+
+    I'm a lot better at programming now. I think I can also do some more work
+    on my personal website. I want it to better resemble an actual portfolio
+    website
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,29 +19,61 @@
 
     <link rel="script" href="js/ext/jquery-3.5.1.min.js">
     <link rel="script" href="js/ext/bootstrap.bundle.min.js">
-    <script language="javascript" src="script.js" /> </script>
+    <script language="javascript" src="script.js"> </script>
 
 </head>
 
 <body>
-    <div class="bordermargins">
-            <div id="greeting">
-                <h2 class="brown_accent">This is : Richard Li</h2>
-            <div class="centered">
-                <p><i>click any link to continue</i></p>
-                <div class="menuMIDDLE">
-                    <ul id="navigation" style="margin-top: 40px;">
-                        <li><a href="aboutme.html">About Me</a></li>
-                        <li><a href="resume.html">Resume</a></li>
-                        <li><a href="music.html">Music</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                    </ul>
-                </div>
-                <p id="contact " style="margin-top: 100px; color: #eea968;">contact me at: <a
-                        href="mailto:rli@olin.edu?Subject= Hey!">rli@olin.edu</a>
-                </p>
+    <section class = "content container">
+        <nav class="navbar navbar-expand-lg navbarScroll">
+            <div class="nav">
+                <a class="navbar-brand mb-0 h1" href="index.html"> Home </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                </ul>
             </div>
+        </nav> 
+
+        <div class="container-fluid">
+            <h1 class="">Portfolio</h1>
+            <hr>
+            <h5 style = "text-align: center"> click to see source code! </h5>
+
+            <section class = "portfolio">
+                <div class="row">
+                    <div class="col portfolioimg">
+                        <a href="https://github.com/richardli03/formula_personal"><img class="img-thumbnail" src="assets/imgs/projects/3.png" alt="formula_personal" title="personal olin electric motorsports repo"></a>
+                    </div>
+                    <div class="col portfolioimg">
+                    <a href="https://richardli03.github.io/You-Me/"><img class="img-thumbnail" src="assets/imgs/projects/4.png" alt="Album" title="Website"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col portfolioimg">
+                        <a href="https://github.com/richardli03/Zao">  <img class="img-thumbnail" src="assets/imgs/projects/2.png" alt="personal terminal assistant!" title="personal terminal assistant"> </a>
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"></div>
+                    </div>
+                    <div class="col portfolioimg">
+                        <a href="https://github.com/richardli03/DiscordBot">  <img class="img-thumbnail" src="assets/imgs/projects/1.png" alt="discord filter bot" title="discord filter bot"> </a>
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)"></div>
+                        </div>
+                    
+                </div>
+            </section>
         </div>
-    </div>
+    </section>
 </body>
 </html>
+
