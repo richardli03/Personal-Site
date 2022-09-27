@@ -3,7 +3,7 @@ body {
     padding: 0;
     /* background-image: url('../assets/stars.gif'); 
     background-repeat: repeat;*/
-    background-color: #0A0A09;
+    background-color: #131311;
     color: white;
     font-family: Ubuntu, monospace;
 }
@@ -12,16 +12,15 @@ hr{
     border: 3px dotted #eea968;
   }
 
-
 .portfolioimg {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10%;
 }
 
 .content {
     margin-top: 25px;
     width: 90%;
 }
+
 
 a:link {
     color: #7ea7f5;
