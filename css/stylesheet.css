@@ -1,16 +1,14 @@
 body {
     margin: 0 0 0 0 !important;
     padding: 0;
-    /* background-image: url('../assets/stars.gif'); 
-    background-repeat: repeat;*/
     background-color: #131311;
     color: white;
     font-family: Ubuntu, monospace;
 }
 
 hr{
-    border: 3px dotted #eea968;
-  }
+    border: 3px dotted #d67229;
+}
 
 .portfolioimg {
     margin-top: 10%;
