@@ -10,13 +10,10 @@ hr{
     border: 3px dotted #d67229;
 }
 
-.portfolioimg {
-    margin-top: 10%;
-}
 
 .content {
     margin-top: 25px;
-    width: 90%;
+    width: 95%;
 }
 
 
@@ -62,11 +59,11 @@ h1{
 }
 
 h3{
-    color: #7ea7f5;
+    color: #b6dcff;
     text-align: center;
 }
 
 
-.col{
-    padding: 45px;
+.col-md{
+    padding-top: 45px;
 }
