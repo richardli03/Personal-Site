@@ -7,7 +7,7 @@ body {
     font-size: 13pt;
 }
 
-hr{
+hr {
     border: 3px dotted #d67229;
 }
 
@@ -16,11 +16,21 @@ hr{
     width: 95%;
 }
 
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+
 a:link {
     color: #4f8cff;
     background-color: transparent;
     text-decoration: none;
-    position:relative;
+    position: relative;
 }
 
 a:visited {
@@ -35,11 +45,12 @@ a:hover {
     /* top: -2px;  */
 }
 
-.figure-caption{
+.figure-caption {
     color: #b6dcff;
     text-align: center;
 }
-.img-cover{
+
+.img-cover {
     display: block;
     max-width: 90%;
     margin-left: auto;
@@ -59,18 +70,22 @@ a:hover {
     height: 75px;
 }
 
-h1{
-    text-align: center;
-   
+.navbar-nav .nav-item .nav-link {
+    color: #b6dcff
 }
 
-h3{
+h1 {
+    text-align: center;
+
+}
+
+h3 {
     color: #b6dcff;
     text-align: center;
 }
 
 
-.col-md{
+.col-md {
     padding-top: 45px;
     margin-left: 10px;
     margin-right: 10px;
